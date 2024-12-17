@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(photo_2024-12-05_07-54-48.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+#left{
+    width: 5%;
+    height: 100%;
+    background-color: #000e0092;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0px;
+}
+#left #down{display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+}
+
+#right{
+    width: 95%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.291);
+}
+
+#top{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+    color: white;
+    
+
+}
+#logo{
+    height: 100%;
+    width: 30%;
+    font-size: 100px;
+    font-family: Faceed sans;
+
+
+}
+#bar{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: jelista;
+    
+    
+
+}
+#bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+#bar i{
+    font-size: 40px;
+}
+
+
+#center{
+height: 60%;
+width: 100%;
+display: flex;
+
+
+}
+#cleft{
+    height: 100%;
+    width: 60%;
+    color: white;
+    padding: 200px 300px;
+}
+
+#cleft h3{
+    font-size: 100px;
+}
+#ctext hr{
+    width: 30%;
+}
+
+#ctext h4{
+    font-size: 60px;
+}
+#ctext h5{
+    font-size: 30px;
+    opacity: 0.7;
+}
+#cright{
+    height: 100%;
+    width: 40%;
+    color: white;
+    padding: 200px 0px;
+}
+#cright h1{
+    font-size: 200px;
+}
+#cright h2{
+    font-size: 50px;
+    font-weight: 100;
+    opacity: 0.7;
+}
+
+
+#bottom{
+    height: 30%;
+    width: 100%;
+    background-color: #000e0092;
+    display: flex;
+    color: white;
+    
+}
+#one{
+    height: 100%;
+    width: 25%;
+    padding: 100px 100px;
+}
+#one h3{
+    font-size: 50px;
+    line-height: 3;
+}
+
+#one h5{
+    font-size: 30px;
+    opacity: 0.5;
+}
+#one h4{
+    font-size: 20px;
+    line-height: 3;
+    
+}
+#two{
+    height: 100%;
+    width: 25%;
+    padding-top: 250px;
+}
+#two h3{
+    font-size: 30px;
+    opacity: 0.6;
+
+}
+#two h4{
+    font-size: 30px;
+
+}
+#three{
+    height: 100%;
+    width: 20%;
+    background-image: url(photo_2024-12-05_13-53-45.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#four{
+    height: 100%;
+    width: 30%;
+    padding: 100px 100px;
+}
+#four h3{
+    font-size: 50px;
+    line-height: 3;
+}
+
+#four p{
+    font-size: 20px;
+    opacity: 0.5;
+}
+#four h4{
+    line-height: 5;
+    font-size: 25px;
+    color: hotpink;
+
+}
